@@ -6,7 +6,7 @@ public class Controller {
 
 	@GetMapping()
 	public String displayMsg() {
-		return "Your Spring Boot Applicatin is Running";
+		return "Your Spring Boot Applicatin is Running on Jenkins Server";
 	}
 	
 	
