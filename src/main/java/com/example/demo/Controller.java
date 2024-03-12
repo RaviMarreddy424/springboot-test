@@ -8,4 +8,11 @@ public class Controller {
 	public String displayMsg() {
 		return "Your Spring Boot Applicatin is Running";
 	}
+	
+	
+	@GetMapping("say")
+	public String sayHello() {
+	  return "Hello Spring Boot Jenking Application";
+	}
+	
 }
